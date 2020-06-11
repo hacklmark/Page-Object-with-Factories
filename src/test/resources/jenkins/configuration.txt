@@ -1,0 +1,63 @@
+//Downloand
+jenkins.war
+
+//start jenkins in command line
+java -jar jenkins.war //deafault 8080 port
+java -jar jenkins.war --httpPort=9090
+
+//Username
+admin
+
+//Password
+c:\Users\Mark\.jenkins\secrets\initialAdminPassword
+
+//if 8080 port is used, you can kill the task
+netstat -ano | findstr 8080
+taskkill /F /PID xxxx
+
+//New Project
+JDK, MAVEN
+pom.xml path
+goals: clean test/veriy
+
+//Extent Report
+Add plugin Html Publisher
+
+//Extent Report will be shown in jenkins
+java -Dhudson.model.DirectoryBrowserSupport.CSP="" -jar jenkins.war
+
+//Parameterizing the build for browser and environment
+Configuration > Diese Build ist parametrisiert > Auswahl
+Name = Config.properties > name of the variable of browser (browser=chrome)
+Auswahlmöglichkeit = firefox </br> chrome </br> ie
+
+//in Code
+//getenv browser will be read from Jenkins
+if (System.getenv("browser") != null && !System.getenv("browser").isEmpty()){
+    browser = System.getenv("browser");
+}else{
+    browser = config.getProperty("browser");
+}
+ config.setProperty("browser", browser);
+
+//Extent Reports
+Post-Build-Aktionen > HTML directory to archive: C:\Users\Mark\Documents\IntelliJ\Udemy\Architect\PageObjectModelBasics\target\surefire-reports\html
+> Index page[s]: extent.html
+> Report title: Extent Report
+
+//Running jenkins after push
+GitHub-Projekt > Project url: https://github.com/hacklmark/PageObjectModelBasics
+
+Source-Code-Management > Repository URL: git@github.com:hacklmark/PageObjectModelBasics.git   (ssh)
+https://github.com/hacklmark/PageObjectModelBasics.git  (html)
+
+Build-Auslöser > GitHub hook trigger for GITScm polling
+
+Maven Goal aufrufen >
+> Maven-Version: (Standard)
+> Goals: clean test
+
+GitHub: Setting > Webhooks > http://path/github-webhook/
+> content type app/json
+
+
