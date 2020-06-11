@@ -1,25 +1,25 @@
 package com.w2a.pages.actions;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+import com.w2a.base.Page;
+import com.w2a.pages.locators.HomePageLocators;
+import org.openqa.selenium.support.PageFactory;
 
-public class HomePage{
+public class HomePage extends Page {
 
-    @FindBy(css="#tab-flight-tab-hp")
-    public WebElement flightTab;
+    public HomePageLocators home;
 
-    @FindBy(css="li.uitk-tab:nth-child(3) > a:nth-child(1)")
-    public WebElement flightTab2;
+    public HomePage(){
+        this.home = new HomePageLocators();
+        PageFactory.initElements(driver, this.home);
+    }
 
     public void gotoFlights(){
 
         try {
-            flightTab.click();
+            home.flightTab.click();
             System.out.println("Működik az első oldal");
         }catch (Exception e){
-            flightTab2.click();
+            home.flightTab2.click();
             System.out.println("Bassza meg az első oldal");
         }
 
