@@ -6,11 +6,11 @@ import com.w2a.pages.actions.HomePage;
 public class FlightSearchTest {
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Page.initConfiguration();
         HomePage home = new HomePage();
-        home.gotoFlights();
-        Page.quitBrowser();
+        home.gotoFlights().bookAFlight("Vienna", "Budapest", "12/06/2020", "19/06/2020");
+        //Page.quitBrowser();
     }
 }
