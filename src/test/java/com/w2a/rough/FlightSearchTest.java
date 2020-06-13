@@ -10,7 +10,7 @@ public class FlightSearchTest {
 
         Page.initConfiguration();
         HomePage home = new HomePage();
-        home.gotoFlights().bookAFlight("Vienna", "Budapest", "12/06/2020", "19/06/2020");
+        home.gotoFlights().bookAFlight("Vienna", "Budapest", "13/06/2020", "20/06/2020");
         //Page.quitBrowser();
     }
 }

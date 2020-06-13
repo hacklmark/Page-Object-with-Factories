@@ -2,8 +2,14 @@ package com.w2a.pages.actions;
 
 import com.w2a.base.Page;
 import com.w2a.pages.locators.HomePageLocators;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+import org.openqa.selenium.support.ui.Select;
+
+import javax.swing.*;
 
 public class HomePage extends Page {
 
@@ -39,25 +45,16 @@ public class HomePage extends Page {
         home.fromCity.sendKeys(from);
         home.toCity.sendKeys(to);
         home.departFlight.sendKeys(departing);
-        //home.returnFlight.sendKeys(returning);
-        home.returnFlight.click();
-        home.returnFlight.clear();
-        //home.returnFlight.sendKeys(returning);
-
+        home.returnFlight.sendKeys(returning);
         home.travellerSelector.click();
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        home.travellerSelector.click();
-        //home.adultCount.click();
-        //home.childCount.click();
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        home.search.click();
+        home.adultCount.click();
+        home.childCount.click();
+        Select select = new Select(home.childAge);
+        select.selectByValue("10");
+        //home.block.click();
+        Actions action = new Actions(driver);
+        //action.sendKeys(Keys.PAGE_DOWN).perform();
+        //action.sendKeys(Keys.ENTER).perform();
+        action.moveToElement(home.search).click().perform();
     }
 }
