@@ -2,6 +2,7 @@ package com.w2a.base;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.w2a.pages.actions.TopNavigation;
 import com.w2a.utilities.ExcelReader;
 import com.w2a.utilities.ExtentManager;
 import org.apache.log4j.Logger;
@@ -39,6 +40,7 @@ public class Page {
     public ExtentReports rep = ExtentManager.getInstance();
     public static ExtentTest test;
     public static String browser;
+    public static TopNavigation topNav;
 
     public static void initConfiguration() {
 
@@ -72,6 +74,7 @@ public class Page {
         driver.manage().window().maximize();
 /*        driver.manage().timeouts().implicitlyWait((Constants.implicitwait), TimeUnit.SECONDS);
         wait = new WebDriverWait(driver, 5);*/
+        topNav = new TopNavigation(driver);
     }
 
     public static void quitBrowser() {

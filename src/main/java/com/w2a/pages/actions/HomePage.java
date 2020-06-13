@@ -2,14 +2,11 @@ package com.w2a.pages.actions;
 
 import com.w2a.base.Page;
 import com.w2a.pages.locators.HomePageLocators;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import javax.swing.*;
 
 public class HomePage extends Page {
 
@@ -23,13 +20,7 @@ public class HomePage extends Page {
 
     public HomePage gotoFlights(){
 
-        try {
-            home.flightTab.click();
-            System.out.println("Működik az első oldal");
-        }catch (Exception e){
-            home.flightTab2.click();
-            System.out.println("Bassza meg az első oldal");
-        }
+        home.flightTab.click();
         return this;
     }
 
@@ -44,8 +35,8 @@ public class HomePage extends Page {
     public void bookAFlight(String from, String to, String departing, String returning) {
         home.fromCity.sendKeys(from);
         home.toCity.sendKeys(to);
-        home.departFlight.sendKeys(departing);
         home.returnFlight.sendKeys(returning);
+        home.departFlight.sendKeys(departing);
         home.travellerSelector.click();
         home.adultCount.click();
         home.childCount.click();

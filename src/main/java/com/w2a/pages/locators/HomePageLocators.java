@@ -8,9 +8,6 @@ public class HomePageLocators {
     @FindBy(xpath = "//button[starts-with(@id,'tab-flight-tab-hp')]")
     public WebElement flightTab;
 
-    @FindBy(css="li.uitk-tab:nth-child(3) > a:nth-child(1)")
-    public WebElement flightTab2;
-
     //Locators for Flight booking
 
     @FindBy(css="#flight-origin-hp-flight")
