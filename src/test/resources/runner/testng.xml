@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Page Object Model with PAge Factories">
+<suite name="Page Object Model with Page Factories">
 
     <listeners>
         <listener class-name="org.uncommons.reportng.HTMLReporter"/>
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-        <listener class-name="com.w2a.listeners.CustomListeners"/>
     </listeners>
 
-    <test verbose="2" preserve-order="true" name="Login Test">
+    <test verbose="2" preserve-order="true" name="Sign in Test">
         <classes>
-            <class name="com.w2a.testcases.LoginTest">
+            <class name="com.w2a.testcases.signInTest">
                 <methods>
-                    <include name="loginTest"/>
+                    <include name="signInTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Flight Search Test">
+        <classes>
+            <class name="com.w2a.testcases.FlightSearchTest">
+                <methods>
+                    <include name="FlightSearchTest"/>
                 </methods>
             </class>
         </classes>
