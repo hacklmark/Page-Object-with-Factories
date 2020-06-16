@@ -133,7 +133,7 @@
         <!-- read log4j properties -->
         <testResources>
             <testResource>
-                <directory>src/test/resources/com/w2a/properties</directory>
+                <directory>src/test/resources/properties</directory>
                 <includes>
                     <include>log4j.properties</include>
                 </includes>
