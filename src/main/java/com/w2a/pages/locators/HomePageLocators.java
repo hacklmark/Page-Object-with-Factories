@@ -3,6 +3,8 @@ package com.w2a.pages.locators;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
+
 public class HomePageLocators {
 
     @FindBy(xpath = "//button[starts-with(@id,'tab-flight-tab-hp')]")
@@ -42,5 +44,8 @@ public class HomePageLocators {
 
     @FindBy(css="#wizard-tabs")
     public WebElement block;
+
+    @FindBy(css="li[role='presentation']")
+    public List<WebElement> tabCount;
 
 }

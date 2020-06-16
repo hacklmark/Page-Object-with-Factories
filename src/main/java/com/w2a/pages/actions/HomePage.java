@@ -48,4 +48,9 @@ public class HomePage extends Page {
         //action.sendKeys(Keys.ENTER).perform();
         action.moveToElement(home.search).click().perform();
     }
+
+    public int findTabCount(){
+
+        return home.tabCount.size();
+    }
 }

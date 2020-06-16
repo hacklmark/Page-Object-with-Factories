@@ -10,5 +10,6 @@ public class signInTest {
         SigninPage signinPage = Page.topNav.gotoSignIn();
         Thread.sleep(2000);
         signinPage.doLogin("test.automatisierer@gmail.com", "Autotest@123");
+        Page.quitBrowser();
     }
 }
