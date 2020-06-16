@@ -10,12 +10,12 @@ public class FlightSearchTest {
 
 
     @Test
-    public void FlightSearchTest() {
+    public void FlightSearchTest() throws InterruptedException {
 
         Page.initConfiguration();
         HomePage home = new HomePage();
         //Assert.assertEquals(home.findTabCount(), 5);
-        ErrorCollector.verifyEquals(home.findTabCount(), 7);
+        ErrorCollector.verifyEquals(home.findTabCount(), 5);
         home.gotoFlights().bookAFlight("Vienna", "Berlin", "13/06/2020", "20/06/2020");
         Page.quitBrowser();
     }

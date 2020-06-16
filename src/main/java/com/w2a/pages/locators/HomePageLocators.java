@@ -1,7 +1,9 @@
 package com.w2a.pages.locators;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 
 import java.util.List;
 
@@ -39,8 +41,19 @@ public class HomePageLocators {
     //@FindBy(css="#button[type='submit']")
     public WebElement search;
 
-    @FindBy(css="#flight-age-select-1-hp-flight")
-    public WebElement childAge;
+    //second element should be found within the first block
+    @FindBys({
+            @FindBy(css=".room-data"),
+            @FindBy(id="flight-age-select-1-hp-flight")
+    })
+    public WebElement firstChildAge;
+
+    //one of them should be found, than it works
+    @FindAll({
+            @FindBy(css="#flight-age--2-hp-flight"),
+            @FindBy(id="flight-age-select-2-hp-flight")
+    })
+    public WebElement secondChildAge;
 
     @FindBy(css="#wizard-tabs")
     public WebElement block;

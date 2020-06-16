@@ -7,11 +7,11 @@ import org.testng.Assert;
 public class FlightSearchTest {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         Page.initConfiguration();
         HomePage home = new HomePage();
-        Assert.assertEquals(home.findTabCount(), "5");
+        Assert.assertEquals(home.findTabCount(), 5);
         home.gotoFlights().bookAFlight("Vienna", "Berlin", "13/06/2020", "20/06/2020");
         Page.quitBrowser();
     }

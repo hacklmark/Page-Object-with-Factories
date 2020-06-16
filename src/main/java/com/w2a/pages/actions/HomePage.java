@@ -32,7 +32,7 @@ public class HomePage extends Page {
 
     }
 
-    public void bookAFlight(String from, String to, String departing, String returning) {
+    public void bookAFlight(String from, String to, String departing, String returning) throws InterruptedException {
         home.fromCity.sendKeys(from);
         home.toCity.sendKeys(to);
         home.returnFlight.sendKeys(returning);
@@ -40,8 +40,13 @@ public class HomePage extends Page {
         home.travellerSelector.click();
         home.adultCount.click();
         home.childCount.click();
-        Select select = new Select(home.childAge);
+        home.childCount.click();
+        Select select = new Select(home.firstChildAge);
         select.selectByValue("10");
+        Thread.sleep(2000);
+        Select select2 = new Select(home.secondChildAge);
+        select2.selectByValue("11");
+        Thread.sleep(2000);
         //home.block.click();
         Actions action = new Actions(driver);
         //action.sendKeys(Keys.PAGE_DOWN).perform();
