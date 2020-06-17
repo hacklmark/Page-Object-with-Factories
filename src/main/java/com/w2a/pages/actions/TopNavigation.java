@@ -17,8 +17,8 @@ public class TopNavigation extends Page {
     }
 
     public SigninPage gotoSignIn(){
-        topNavigation.account.click();
-        topNavigation.signinBtn.click();
+        click(topNavigation.account);
+        click(topNavigation.signinBtn);
 
         return new SigninPage();
     }

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="6,603">
+           time="6,661">
   <properties />
   
   
-            <testcase name="FlightSearchTest" time="6,603" classname="com.w2a.testcases.FlightSearchTest" />
+            <testcase name="FlightSearchTest" time="6,661" classname="com.w2a.testcases.FlightSearchTest" />
       
 </testsuite>

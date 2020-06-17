@@ -8,6 +8,6 @@
   <properties />
   
   
-            <testcase name="signInTest" time="13,821" classname="com.w2a.testcases.signInTest" />
+            <testcase name="signInTest" time="13,821" classname="com.w2a.testcases.SignInTest" />
       
 </testsuite>

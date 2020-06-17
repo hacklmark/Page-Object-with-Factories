@@ -33,14 +33,14 @@ public class HomePage extends Page {
     }
 
     public void bookAFlight(String from, String to, String departing, String returning) throws InterruptedException {
-        home.fromCity.sendKeys(from);
-        home.toCity.sendKeys(to);
-        home.returnFlight.sendKeys(returning);
-        home.departFlight.sendKeys(departing);
-        home.travellerSelector.click();
-        home.adultCount.click();
-        home.childCount.click();
-        home.childCount.click();
+        type(home.fromCity,from);
+        type(home.toCity,to);
+        type(home.returnFlight,returning);
+        type(home.departFlight,departing);
+        click(home.travellerSelector);
+        click(home.adultCount);
+        click(home.childCount);
+        click(home.childCount);
         Select select = new Select(home.firstChildAge);
         select.selectByValue("10");
         Thread.sleep(2000);

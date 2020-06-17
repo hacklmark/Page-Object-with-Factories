@@ -6,7 +6,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class signInTest {
+public class SignInTest {
 
     @BeforeTest
     public void setUp(){

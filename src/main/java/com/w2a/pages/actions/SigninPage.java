@@ -17,8 +17,8 @@ public class SigninPage extends Page {
 
     public void doLogin(String username, String password){
 
-        signinPage.email.sendKeys(username);
-        signinPage.password.sendKeys(password);
-        signinPage.submit.click();
+        type(signinPage.email,username);
+        type(signinPage.password,password);
+        click(signinPage.submit);
     }
 }

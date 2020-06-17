@@ -11,7 +11,7 @@
 
     <test verbose="2" preserve-order="true" name="Sign in Test">
         <classes>
-            <class name="com.w2a.testcases.signInTest">
+            <class name="com.w2a.testcases.SignInTest">
                 <methods>
                     <include name="signInTest"/>
                 </methods>

@@ -2,11 +2,13 @@ package com.w2a.base;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import com.w2a.pages.actions.TopNavigation;
 import com.w2a.utilities.ExcelReader;
 import com.w2a.utilities.ExtentManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -28,6 +30,8 @@ public class Page {
     Logs
     WebDriverWait
     ExtentReport
+    DataProvider
+    Jankins, Mail API
      */
 
     public static WebDriver driver;
@@ -75,6 +79,20 @@ public class Page {
 /*        driver.manage().timeouts().implicitlyWait((Constants.implicitwait), TimeUnit.SECONDS);
         wait = new WebDriverWait(driver, 5);*/
         topNav = new TopNavigation(driver);
+    }
+
+    public static void click(WebElement element){
+
+        element.click();
+        log.debug("Clicking on an Element : "+element);
+        test.log(LogStatus.INFO, "Clicking on : " + element);
+    }
+
+    public void type(WebElement element, String value){
+
+        element.sendKeys(value);
+        log.debug("Typing in an Element : "+element+" entered value as : "+value);
+        test.log(LogStatus.INFO, "Typing on : "+element+" entered value as "+value);
     }
 
     public static void quitBrowser() {
