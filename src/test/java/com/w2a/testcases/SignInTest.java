@@ -2,26 +2,31 @@ package com.w2a.testcases;
 
 import com.w2a.base.Page;
 import com.w2a.pages.actions.SigninPage;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import com.w2a.utilities.Utilities;
+import org.testng.SkipException;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class SignInTest {
 
-    @BeforeTest
-    public void setUp(){
-        Page.initConfiguration();
+
+    @Test(dataProviderClass = Utilities.class, dataProvider = "dp")
+    public void signInTest(String username, String password, String runMode) throws InterruptedException {
+
+        if (runMode.equalsIgnoreCase("N")){
+            throw new SkipException("Skipping the test as the Run mode is NO");
+        }else {
+            Page.initConfiguration();
+            SigninPage signinPage = Page.topNav.gotoSignIn();
+            Thread.sleep(2000);
+            signinPage.doLogin(username, password);
+        }
     }
 
-    @Test
-    public void signInTest() throws InterruptedException {
-        SigninPage signinPage = Page.topNav.gotoSignIn();
-        Thread.sleep(2000);
-        signinPage.doLogin("test.automatisierer@gmail.com", "Autotest@123");
-    }
-
-    @AfterTest
+    @AfterMethod
     public void tearDown(){
-        Page.quitBrowser();
+        if (Page.driver!=null){
+            Page.quitBrowser();
+        }
     }
 }

@@ -18,7 +18,7 @@
   org.testng.Assert.assertEquals(Assert.java:563)
   com.w2a.errorcollectors.ErrorCollector.assertEquals(ErrorCollector.java:38)
   com.w2a.errorcollectors.ErrorCollector.verifyEquals(ErrorCollector.java:102)
-  com.w2a.testcases.FlightSearchTest.FlightSearchTest(FlightSearchTest.java:18)
+  flightSearchTest(FlightSearchTest.java:18)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

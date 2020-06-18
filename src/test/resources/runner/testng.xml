@@ -23,7 +23,7 @@
         <classes>
             <class name="com.w2a.testcases.FlightSearchTest">
                 <methods>
-                    <include name="FlightSearchTest"/>
+                    <include name="flightSearchTest"/>
                 </methods>
             </class>
         </classes>

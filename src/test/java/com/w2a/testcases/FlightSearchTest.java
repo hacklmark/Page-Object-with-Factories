@@ -3,29 +3,31 @@ package com.w2a.testcases;
 import com.w2a.base.Page;
 import com.w2a.errorcollectors.ErrorCollector;
 import com.w2a.pages.actions.HomePage;
+import com.w2a.utilities.Utilities;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.SkipException;
+import org.testng.annotations.*;
 
 public class FlightSearchTest {
 
-    @BeforeTest
-    public void setUp(){
-        Page.initConfiguration();
+    @Test(dataProviderClass = Utilities.class, dataProvider = "dp")
+    public void flightSearchTest(String fromCity, String toCity, String fromDate, String toDate, String runMode) throws InterruptedException {
+
+        if (runMode.equalsIgnoreCase("N")){
+            throw new SkipException("Skipping the test as the Run mode is NO");
+        }else {
+            Page.initConfiguration();
+            HomePage home = new HomePage();
+            //Assert.assertEquals(home.findTabCount(), 5);
+            ErrorCollector.verifyEquals(home.findTabCount(), 5);
+            home.gotoFlights().bookAFlight(fromCity, toCity, fromDate, toDate);
+        }
     }
 
-    @Test
-    public void FlightSearchTest() throws InterruptedException {
-
-        HomePage home = new HomePage();
-        //Assert.assertEquals(home.findTabCount(), 5);
-        ErrorCollector.verifyEquals(home.findTabCount(), 5);
-        home.gotoFlights().bookAFlight("Vienna", "Berlin", "13/06/2020", "20/06/2020");
-    }
-
-    @AfterTest
-    public void tearDown(){
-        Page.quitBrowser();
+    @AfterMethod
+    public void tearDown() {
+        if (Page.driver != null) {
+            Page.quitBrowser();
+        }
     }
 }

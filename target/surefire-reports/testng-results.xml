@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="1" failed="2" ignored="0" total="3" passed="0">
   <reporter-output>
     <line>
       <![CDATA[Click to see Screenshot]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Wed_Jun_17_14_17_07_CEST_2020.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=Thu_Jun_18_11_30_51_CEST_2020.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -14,19 +14,110 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Wed_Jun_17_14_17_07_CEST_2020.jpg><img src=Wed_Jun_17_14_17_07_CEST_2020.jpg widht=200 height=200></a>]]>
+      <![CDATA[<a target="_blank" href=Thu_Jun_18_11_30_51_CEST_2020.jpg><img src=Thu_Jun_18_11_30_51_CEST_2020.jpg widht=200 height=200></a>]]>
+    </line>
+    <line>
+      <![CDATA[Click to see Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Thu_Jun_18_11_31_13_CEST_2020.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Thu_Jun_18_11_31_13_CEST_2020.jpg><img src=Thu_Jun_18_11_31_13_CEST_2020.jpg widht=200 height=200></a>]]>
     </line>
   </reporter-output>
-  <suite name="Page Object Model with Page Factories" duration-ms="37723" started-at="2020-06-17T14:16:47 MESZ" finished-at="2020-06-17T14:17:25 MESZ">
+  <suite name="Page Object Model with Page Factories" duration-ms="44849" started-at="2020-06-18T11:30:29 MESZ" finished-at="2020-06-18T11:31:14 MESZ">
     <groups>
     </groups>
-    <test name="Sign in Test" duration-ms="21490" started-at="2020-06-17T14:16:47 MESZ" finished-at="2020-06-17T14:17:08 MESZ">
+    <test name="Sign in Test" duration-ms="23132" started-at="2020-06-18T11:30:29 MESZ" finished-at="2020-06-18T11:30:52 MESZ">
       <class name="com.w2a.testcases.SignInTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.testcases.SignInTest@4686afc2]" name="setUp" is-config="true" duration-ms="8630" started-at="2020-06-17T14:16:47 MESZ" finished-at="2020-06-17T14:16:56 MESZ">
+        <test-method status="SKIP" signature="signInTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.SignInTest@18df8434]" name="signInTest" duration-ms="7" started-at="2020-06-18T11:30:29 MESZ" data-provider="dp" finished-at="2020-06-18T11:30:29 MESZ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test.automatisierer@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as the Run mode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as the Run mode is NO
+at com.w2a.testcases.SignInTest.signInTest(SignInTest.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="signInTest()[pri:0, instance:com.w2a.testcases.SignInTest@4686afc2]" name="signInTest" duration-ms="10101" started-at="2020-06-17T14:16:56 MESZ" finished-at="2020-06-17T14:17:06 MESZ">
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.SignInTest@18df8434]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-06-18T11:30:29 MESZ" finished-at="2020-06-18T11:30:29 MESZ">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="signInTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.SignInTest@18df8434]" name="signInTest" duration-ms="21149" started-at="2020-06-18T11:30:29 MESZ" data-provider="dp" finished-at="2020-06-18T11:30:50 MESZ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Timed out after 10 seconds. Unable to locate the element
@@ -44,9 +135,9 @@ Driver info: driver.version: unknown
 at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:91)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy5.click(Unknown Source)
-at com.w2a.base.Page.click(Page.java:84)
+at com.w2a.base.Page.click(Page.java:86)
 at com.w2a.pages.actions.TopNavigation.gotoSignIn(TopNavigation.java:20)
-at com.w2a.testcases.SignInTest.signInTest(SignInTest.java:18)
+at com.w2a.testcases.SignInTest.signInTest(SignInTest.java:20)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -78,15 +169,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#header-account-menu"}
   (Session info: chrome=83.0.4103.106)
   (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 12 milliseconds
+Command duration or timeout: 14 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'AP-123', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59127}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\Users\Mark\AppData\Local\Temp\scoped_dir33604_297485012}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.106, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: ff787c30e548912f6820170872494642
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58843}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\Users\Mark\AppData\Local\Temp\scoped_dir6352_1015148611}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.106, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 41302794485d3a92a4887a73426b9ef2
 *** Element info: {Using=css selector, value=#header-account-menu}
-at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
@@ -110,7 +201,7 @@ at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxEl
               <![CDATA[Click to see Screenshot]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Wed_Jun_17_14_17_07_CEST_2020.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=Thu_Jun_18_11_30_51_CEST_2020.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -119,27 +210,142 @@ at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxEl
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Wed_Jun_17_14_17_07_CEST_2020.jpg><img src=Wed_Jun_17_14_17_07_CEST_2020.jpg widht=200 height=200></a>]]>
+              <![CDATA[<a target="_blank" href=Thu_Jun_18_11_30_51_CEST_2020.jpg><img src=Thu_Jun_18_11_30_51_CEST_2020.jpg widht=200 height=200></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- signInTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.SignInTest@4686afc2]" name="tearDown" is-config="true" duration-ms="1331" started-at="2020-06-17T14:17:07 MESZ" finished-at="2020-06-17T14:17:08 MESZ">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.SignInTest@18df8434]" name="tearDown" is-config="true" duration-ms="1068" started-at="2020-06-18T11:30:51 MESZ" finished-at="2020-06-18T11:30:52 MESZ">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.w2a.testcases.SignInTest -->
     </test> <!-- Sign in Test -->
-    <test name="Flight Search Test" duration-ms="16164" started-at="2020-06-17T14:17:08 MESZ" finished-at="2020-06-17T14:17:25 MESZ">
+    <test name="Flight Search Test" duration-ms="21694" started-at="2020-06-18T11:30:52 MESZ" finished-at="2020-06-18T11:31:14 MESZ">
       <class name="com.w2a.testcases.FlightSearchTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.testcases.FlightSearchTest@46cdf8bd]" name="setUp" is-config="true" duration-ms="8386" started-at="2020-06-17T14:17:08 MESZ" finished-at="2020-06-17T14:17:17 MESZ">
+        <test-method status="FAIL" signature="flightSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.FlightSearchTest@2e385cce]" name="flightSearchTest" duration-ms="20093" started-at="2020-06-18T11:30:52 MESZ" data-provider="dp" finished-at="2020-06-18T11:31:12 MESZ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vienna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Berlin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13/07/2020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20/07/2020]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Timed out after 10 seconds. Unable to locate the element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'AP-123', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'AP-123', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:91)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy5.click(Unknown Source)
+at com.w2a.pages.actions.HomePage.gotoFlights(HomePage.java:23)
+at com.w2a.testcases.FlightSearchTest.flightSearchTest(FlightSearchTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[starts-with(@id,'tab-flight-tab-hp')]"}
+  (Session info: chrome=83.0.4103.106)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'AP-123', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58950}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\Users\Mark\AppData\Local\Temp\scoped_dir36436_1573166220}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.106, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 1e8004576fe861d4b83a7843a17ed155
+*** Element info: {Using=xpath, value=//button[starts-with(@id,'tab-flight-tab-hp')]}
+at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:41)
+at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157)
+at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:70)
+at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[Click to see Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Thu_Jun_18_11_31_13_CEST_2020.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Thu_Jun_18_11_31_13_CEST_2020.jpg><img src=Thu_Jun_18_11_31_13_CEST_2020.jpg widht=200 height=200></a>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="FlightSearchTest()[pri:0, instance:com.w2a.testcases.FlightSearchTest@46cdf8bd]" name="FlightSearchTest" duration-ms="6661" started-at="2020-06-17T14:17:17 MESZ" finished-at="2020-06-17T14:17:23 MESZ">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FlightSearchTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.FlightSearchTest@46cdf8bd]" name="tearDown" is-config="true" duration-ms="1093" started-at="2020-06-17T14:17:24 MESZ" finished-at="2020-06-17T14:17:25 MESZ">
+        </test-method> <!-- flightSearchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.FlightSearchTest@2e385cce]" name="tearDown" is-config="true" duration-ms="950" started-at="2020-06-18T11:31:13 MESZ" finished-at="2020-06-18T11:31:14 MESZ">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

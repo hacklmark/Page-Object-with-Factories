@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                    <span class="method-stats">3 methods, 2 failed,  1 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,24 +102,29 @@
                     <div class="method-list-content failed suite-Page_Object_Model_with_Page_Factories">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model_with_Page_Factories" title="com.w2a.testcases.SignInTest" hash-for-method="signInTest">signInTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model_with_Page_Factories" title="com.w2a.testcases.FlightSearchTest" hash-for-method="flightSearchTest(Vienna, Berlin, 13/07/2020, 20/07/2020, Y)">flightSearchTest(Vienna, Berlin, 13/07/2020, 20/07/2020, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model_with_Page_Factories" title="com.w2a.testcases.SignInTest" hash-for-method="signInTest(java@gmail.com, Selenium@123, Y)">signInTest(java@gmail.com, Selenium@123, Y)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Page_Object_Model_with_Page_Factories -->
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Page_Object_Model_with_Page_Factories" class="hide-methods passed suite-Page_Object_Model_with_Page_Factories"> (hide)</a> <!-- hide-methods passed suite-Page_Object_Model_with_Page_Factories -->
-                      <a href="#" panel-name="suite-Page_Object_Model_with_Page_Factories" class="show-methods passed suite-Page_Object_Model_with_Page_Factories"> (show)</a> <!-- show-methods passed suite-Page_Object_Model_with_Page_Factories -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Page_Object_Model_with_Page_Factories" class="hide-methods skipped suite-Page_Object_Model_with_Page_Factories"> (hide)</a> <!-- hide-methods skipped suite-Page_Object_Model_with_Page_Factories -->
+                      <a href="#" panel-name="suite-Page_Object_Model_with_Page_Factories" class="show-methods skipped suite-Page_Object_Model_with_Page_Factories"> (show)</a> <!-- show-methods skipped suite-Page_Object_Model_with_Page_Factories -->
                     </span>
-                    <div class="method-list-content passed suite-Page_Object_Model_with_Page_Factories">
+                    <div class="method-list-content skipped suite-Page_Object_Model_with_Page_Factories">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model_with_Page_Factories" title="com.w2a.testcases.FlightSearchTest" hash-for-method="FlightSearchTest">FlightSearchTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Page_Object_Model_with_Page_Factories" title="com.w2a.testcases.SignInTest" hash-for-method="signInTest(test.automatisierer@gmail.com, Selenium@123, N)">signInTest(test.automatisierer@gmail.com, Selenium@123, N)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Page_Object_Model_with_Page_Factories -->
+                    </div> <!-- method-list-content skipped suite-Page_Object_Model_with_Page_Factories -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -139,9 +144,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="signInTest">
-                  </a> <!-- signInTest -->
+                  <a name="signInTest(java@gmail.com, Selenium@123, Y)">
+                  </a> <!-- signInTest(java@gmail.com, Selenium@123, Y) -->
                   <span class="method-name">signInTest</span>
+                  <span class="parameters">(java@gmail.com, Selenium@123, Y)</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
@@ -150,9 +156,9 @@ Driver info: driver.version: unknown
 	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:91)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy5.click(Unknown Source)
-	at com.w2a.base.Page.click(Page.java:84)
+	at com.w2a.base.Page.click(Page.java:86)
 	at com.w2a.pages.actions.TopNavigation.gotoSignIn(TopNavigation.java:20)
-	at com.w2a.testcases.SignInTest.signInTest(SignInTest.java:18)
+	at com.w2a.testcases.SignInTest.signInTest(SignInTest.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -184,15 +190,15 @@ Driver info: driver.version: unknown
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#header-account-menu&quot;}
   (Session info: chrome=83.0.4103.106)
   (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 12 milliseconds
+Command duration or timeout: 14 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
 System info: host: &apos;AP-123&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59127}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\Users\Mark\AppData\Local\Temp\scoped_dir33604_297485012}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.106, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: ff787c30e548912f6820170872494642
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58843}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\Users\Mark\AppData\Local\Temp\scoped_dir6352_1015148611}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.106, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 41302794485d3a92a4887a73426b9ef2
 *** Element info: {Using=css selector, value=#header-account-menu}
-	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
@@ -214,21 +220,137 @@ Session ID: ff787c30e548912f6820170872494642
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Page_Object_Model_with_Page_Factories-class-failed -->
-          <div class="suite-Page_Object_Model_with_Page_Factories-class-passed">
+          <div class="suite-Page_Object_Model_with_Page_Factories-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.w2a.testcases.FlightSearchTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="FlightSearchTest">
-                  </a> <!-- FlightSearchTest -->
-                  <span class="method-name">FlightSearchTest</span>
+                  <a name="flightSearchTest(Vienna, Berlin, 13/07/2020, 20/07/2020, Y)">
+                  </a> <!-- flightSearchTest(Vienna, Berlin, 13/07/2020, 20/07/2020, Y) -->
+                  <span class="method-name">flightSearchTest</span>
+                  <span class="parameters">(Vienna, Berlin, 13/07/2020, 20/07/2020, Y)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;AP-123&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:91)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at com.w2a.pages.actions.HomePage.gotoFlights(HomePage.java:23)
+	at com.w2a.testcases.FlightSearchTest.flightSearchTest(FlightSearchTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+	at org.testng.TestNG.runSuites(TestNG.java:997)
+	at org.testng.TestNG.run(TestNG.java:965)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[starts-with(@id,&apos;tab-flight-tab-hp&apos;)]&quot;}
+  (Session info: chrome=83.0.4103.106)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;AP-123&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58950}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\Users\Mark\AppData\Local\Temp\scoped_dir36436_1573166220}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.106, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 1e8004576fe861d4b83a7843a17ed155
+*** Element info: {Using=xpath, value=//button[starts-with(@id,&apos;tab-flight-tab-hp&apos;)]}
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:41)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:157)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:70)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:87)
+	... 32 more
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Page_Object_Model_with_Page_Factories-class-passed -->
+          </div> <!-- suite-Page_Object_Model_with_Page_Factories-class-failed -->
+          <div class="suite-Page_Object_Model_with_Page_Factories-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.w2a.testcases.SignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInTest(test.automatisierer@gmail.com, Selenium@123, N)">
+                  </a> <!-- signInTest(test.automatisierer@gmail.com, Selenium@123, N) -->
+                  <span class="method-name">signInTest</span>
+                  <span class="parameters">(test.automatisierer@gmail.com, Selenium@123, N)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run mode is NO
+	at com.w2a.testcases.SignInTest.signInTest(SignInTest.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+	at org.testng.TestNG.runSuites(TestNG.java:997)
+	at org.testng.TestNG.run(TestNG.java:965)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Page_Object_Model_with_Page_Factories-class-skipped -->
         </div> <!-- panel Page_Object_Model_with_Page_Factories -->
         <div panel-name="test-xml-Page_Object_Model_with_Page_Factories" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -258,7 +380,7 @@ Session ID: ff787c30e548912f6820170872494642
     &lt;classes&gt;
       &lt;class name=&quot;com.w2a.testcases.FlightSearchTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;FlightSearchTest&quot;/&gt;
+          &lt;include name=&quot;flightSearchTest&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.w2a.testcases.FlightSearchTest --&gt;
     &lt;/classes&gt;
@@ -303,20 +425,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'signInTest')
 data.setCell(0, 2, 'com.w2a.testcases.SignInTest')
-data.setCell(0, 3, 10101);
+data.setCell(0, 3, 21149);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'FlightSearchTest')
+data.setCell(1, 1, 'flightSearchTest')
 data.setCell(1, 2, 'com.w2a.testcases.FlightSearchTest')
-data.setCell(1, 3, 6661);
+data.setCell(1, 3, 20093);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'signInTest')
+data.setCell(2, 2, 'com.w2a.testcases.SignInTest')
+data.setCell(2, 3, 7);
 window.suiteTableData['Page_Object_Model_with_Page_Factories']= { tableData: data, tableDiv: 'times-div-Page_Object_Model_with_Page_Factories'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 41 seconds</span>
               <div id="times-div-Page_Object_Model_with_Page_Factories">
               </div> <!-- times-div-Page_Object_Model_with_Page_Factories -->
             </div> <!-- times-div -->
@@ -328,13 +454,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">signInTest</span>
+              <span class="reporter-method-name">signInTest(java@gmail.com, Selenium@123, Y)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Click to see Screenshot</span>
-                <span class="reporter-method-output"><a target="_blank" href=Wed_Jun_17_14_17_07_CEST_2020.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><a target="_blank" href=Thu_Jun_18_11_30_51_CEST_2020.jpg>Screenshot</a></span>
                 <span class="reporter-method-output"><br></span>
                 <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="_blank" href=Wed_Jun_17_14_17_07_CEST_2020.jpg><img src=Wed_Jun_17_14_17_07_CEST_2020.jpg widht=200 height=200></a></span>
+                <span class="reporter-method-output"><a target="_blank" href=Thu_Jun_18_11_30_51_CEST_2020.jpg><img src=Thu_Jun_18_11_30_51_CEST_2020.jpg widht=200 height=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">flightSearchTest(Vienna, Berlin, 13/07/2020, 20/07/2020, Y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Thu_Jun_18_11_31_13_CEST_2020.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Thu_Jun_18_11_31_13_CEST_2020.jpg><img src=Thu_Jun_18_11_31_13_CEST_2020.jpg widht=200 height=200></a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -353,35 +489,37 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.w2a.testcases.SignInTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setUp</span>
+              <div class="test-method">
+                <span class="method-name">signInTest(test.automatisierer@gmail.com, Selenium@123, N)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">191 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">signInTest</span>
-                <span class="method-start">8660 ms</span>
+                <span class="method-name">signInTest(java@gmail.com, Selenium@123, Y)</span>
+                <span class="method-start">193 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20157 ms</span>
-              </div> <!-- configuration-test after -->
+                <span class="method-start">22024 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.w2a.testcases.FlightSearchTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">21557 ms</span>
-              </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">FlightSearchTest</span>
-                <span class="method-start">29943 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">flightSearchTest(Vienna, Berlin, 13/07/2020, 20/07/2020, Y)</span>
+                <span class="method-start">23118 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">36628 ms</span>
-              </div> <!-- configuration-test after -->
+                <span class="method-start">43860 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
