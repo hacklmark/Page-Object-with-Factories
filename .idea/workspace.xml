@@ -2,37 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f08b23e-f868-4d21-90ec-51f7b7a1f9ec" name="Default Changelist" comment="asd">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/w2a/pages/actions/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/w2a/utilities/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/w2a/utilities/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/w2a/utilities/MonitoringMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/w2a/utilities/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/w2a/rough/FlightSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/excel/testdata.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extentconfig/ReportsConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/jenkins/configuration.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/Config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataDrivenFramework" beforeDir="false" afterPath="$PROJECT_DIR$/../DataDrivenFramework" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GridDocker" beforeDir="false" afterPath="$PROJECT_DIR$/../GridDocker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PageObjectModelBasics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModelBasics/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PageObjectModelBasics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModelBasics/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Page Object Model with Page Factories/Flight Search Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Page Object Model with Page Factories/Flight Search Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Page Object Model with Page Factories/Flight Search Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Page Object Model with Page Factories/Flight Search Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Page Object Model with Page Factories/Sign in Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Page Object Model with Page Factories/Sign in Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Page Object Model with Page Factories/Sign in Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Page Object Model with Page Factories/Sign in Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/Thu_Jun_18_11_30_51_CEST_2020.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/Thu_Jun_18_11_31_13_CEST_2020.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/extent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/output.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test2_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test2_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suites.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.w2a.testcases.FlightSearchTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.w2a.testcases.FlightSearchTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.w2a.testcases.signInTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.w2a.testcases.signInTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.w2a.testcases.FlightSearchTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.w2a.testcases.FlightSearchTest_results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.w2a.testcases.signInTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.w2a.testcases.signInTest_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../XmlAndJsonTest" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlAndJsonTest" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,12 +36,13 @@
     <session id="-732352388">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -97,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/base/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-860">
+            <state relative-caret-position="380">
               <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
@@ -127,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/pages/actions/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-372">
+            <state relative-caret-position="300">
               <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -212,8 +202,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,75 +254,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="w2a" type="462c0819:PsiDirectoryNode" />
+              <item name="errorcollectors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="w2a" type="462c0819:PsiDirectoryNode" />
               <item name="listeners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
               <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="w2a" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="w2a" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="w2a" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="locators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="w2a" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="w2a" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="w2a" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
@@ -351,30 +289,6 @@
             <path>
               <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
               <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -382,23 +296,15 @@
               <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592481910403" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592482099162" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -550,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592472869034</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="asd">
+      <created>1592482111100</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592482111100</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -595,9 +508,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2217484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -606,12 +519,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3991323" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
@@ -657,9 +570,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="asd" />
     <MESSAGE value="Page Factories - Implementing Parameterization and Runmodes to the test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Page Factories - Implementing Parameterization and Runmodes to the test case" />
+    <MESSAGE value="asd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/utilities/MonitoringMail.java">
@@ -680,9 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5180">
           <caret line="274" column="13" selection-start-line="274" selection-start-column="13" selection-end-line="274" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,10 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="225" column="17" selection-start-line="225" selection-start-column="17" selection-end-line="225" selection-end-column="17" />
-          <folding>
-            <element signature="e#7883#7884#0" expanded="true" />
-            <element signature="e#7916#7917#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,20 +778,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/base/Page.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/jenkins/configuration.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-860">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="180">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/pages/actions/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/base/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -896,10 +799,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/jenkins/configuration.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/pages/actions/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="300">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
