@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f08b23e-f868-4d21-90ec-51f7b7a1f9ec" name="Default Changelist" comment="">
+    <list default="true" id="4f08b23e-f868-4d21-90ec-51f7b7a1f9ec" name="Default Changelist" comment="asd">
       <change beforePath="$PROJECT_DIR$/../DataDrivenFramework" beforeDir="false" afterPath="$PROJECT_DIR$/../DataDrivenFramework" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GridDocker" beforeDir="false" afterPath="$PROJECT_DIR$/../GridDocker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PageObjectModelBasics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModelBasics/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PageObjectModelBasics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModelBasics/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/w2a/testcases/FlightSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/w2a/testcases/FlightSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/w2a/testcases/SignInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/w2a/testcases/SignInTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/excel/testdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/excel/testdata.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/w2a/base/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/w2a/base/Page.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Page Object Model with Page Factories/Flight Search Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Page Object Model with Page Factories/Flight Search Test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Page Object Model with Page Factories/Flight Search Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Page Object Model with Page Factories/Flight Search Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Page Object Model with Page Factories/Sign in Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Page Object Model with Page Factories/Sign in Test.html" afterDir="false" />
@@ -19,7 +14,8 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/Wed_Jun_17_14_17_07_CEST_2020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/Thu_Jun_18_11_30_51_CEST_2020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/Thu_Jun_18_11_31_13_CEST_2020.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/extent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/output.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/output.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" afterDir="false" />
@@ -29,20 +25,14 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.w2a.testcases.FlightSearchTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.w2a.testcases.FlightSearchTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.w2a.testcases.signInTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.w2a.testcases.signInTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/methods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/testng.xml.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Page Object Model with Page Factories/toc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.w2a.testcases.FlightSearchTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.w2a.testcases.FlightSearchTest_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.w2a.testcases.signInTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.w2a.testcases.signInTest_results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/w2a/testcases/FlightSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/w2a/testcases/FlightSearchTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/w2a/testcases/signInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/w2a/testcases/signInTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test2_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test2_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/xml/com.w2a.testcases.FlightSearchTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.w2a.testcases.FlightSearchTest_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../XmlAndJsonTest" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlAndJsonTest" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -87,6 +77,7 @@
           <entry key="java" value="56" />
           <entry key="log" value="7" />
           <entry key="properties" value="6" />
+          <entry key="txt" value="1" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
@@ -94,6 +85,7 @@
         <counts>
           <entry key="JAVA" value="56" />
           <entry key="Log" value="7" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="6" />
           <entry key="XML" value="9" />
         </counts>
@@ -111,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/testcases/SignInTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="400">
               <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -123,7 +115,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/testcases/FlightSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
@@ -362,6 +354,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -398,7 +398,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592472841338" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592481910403" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -543,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592396589185</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Page Factories - Implementing Parameterization and Runmodes to the test case">
+      <created>1592472869034</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592472869034</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -588,7 +595,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -651,7 +658,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asd" />
-    <option name="LAST_COMMIT_MESSAGE" value="asd" />
+    <MESSAGE value="Page Factories - Implementing Parameterization and Runmodes to the test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page Factories - Implementing Parameterization and Runmodes to the test case" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/utilities/MonitoringMail.java">
@@ -881,20 +889,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/testcases/SignInTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/testcases/FlightSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/jenkins/configuration.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/testcases/SignInTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
