@@ -83,7 +83,7 @@ public class CustomListeners extends Page implements ITestListener, ISuiteListen
 
         MonitoringMail mail = new MonitoringMail();
         try {
-            messageBody = InetAddress.getLocalHost().getHostAddress()+":8080/job/LiveProject%20-%20PageObjectModel/";
+            messageBody = InetAddress.getLocalHost().getHostAddress()+":8080/job/Live%20Project%20-%20Page%20Object%20with%20Factories/";
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
