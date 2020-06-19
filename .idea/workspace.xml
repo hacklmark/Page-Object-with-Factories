@@ -2,26 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f08b23e-f868-4d21-90ec-51f7b7a1f9ec" name="Default Changelist" comment="asd">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/w2a/pages/actions/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/w2a/utilities/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/w2a/utilities/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/w2a/utilities/MonitoringMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/w2a/utilities/TestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/w2a/rough/FlightSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/excel/testdata.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/extentconfig/ReportsConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/jenkins/configuration.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/Config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DataDrivenFramework" beforeDir="false" afterPath="$PROJECT_DIR$/../DataDrivenFramework" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GridDocker" beforeDir="false" afterPath="$PROJECT_DIR$/../GridDocker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PageObjectModelBasics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModelBasics/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PageObjectModelBasics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModelBasics/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/w2a/base/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/w2a/base/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/w2a/pages/locators/TopNavigationLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/w2a/pages/locators/TopNavigationLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/w2a/pages/locators/TopNavigationLocators.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/w2a/pages/locators/TopNavigationLocators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../XmlAndJsonTest" beforeDir="false" afterPath="$PROJECT_DIR$/../XmlAndJsonTest" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,19 +28,19 @@
     <session id="-732352388">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="3394" />
+          <entry key="java" value="3398" />
           <entry key="properties" value="33" />
           <entry key="txt" value="38" />
           <entry key="xml" value="54" />
@@ -56,7 +48,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3394" />
+          <entry key="JAVA" value="3398" />
           <entry key="PLAIN_TEXT" value="40" />
           <entry key="Properties" value="33" />
           <entry key="XML" value="54" />
@@ -64,7 +56,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="56" />
+          <entry key="java" value="60" />
           <entry key="log" value="7" />
           <entry key="properties" value="6" />
           <entry key="txt" value="1" />
@@ -73,7 +65,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="56" />
+          <entry key="JAVA" value="60" />
           <entry key="Log" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="6" />
@@ -87,20 +79,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/base/Page.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="654">
+              <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/testcases/SignInTest.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/pages/actions/SigninPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/pages/actions/TopNavigation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/testcases/SignInTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/pages/locators/TopNavigationLocators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -157,13 +185,13 @@
         <option value="$PROJECT_DIR$/src/test/resources/properties/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/logs/Application.log" />
         <option value="$PROJECT_DIR$/src/main/java/com/w2a/pages/actions/TopNavigation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/w2a/pages/locators/TopNavigationLocators.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/w2a/pages/actions/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/w2a/pages/actions/SigninPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/w2a/base/Page.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/w2a/testcases/SignInTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/w2a/testcases/FlightSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/w2a/base/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/w2a/pages/locators/TopNavigationLocators.java" />
       </list>
     </option>
   </component>
@@ -202,9 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,25 +311,17 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="excel" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageObjectwithFactories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectwithFactories" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592482099162" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592552912073" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -463,19 +480,17 @@
       <option name="project" value="LOCAL" />
       <updated>1592482111100</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="asd">
+      <created>1592482997001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592482997001</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SignInTest - 2020.06.17 at 13h 54m 37s.xml">
-      <configuration name="SignInTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignInTest - 2020.06.17 at 13h 54m 50s.xml">
-      <configuration name="SignInTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignInTest - 2020.06.17 at 13h 55m 04s.xml">
-      <configuration name="SignInTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SignInTest - 2020.06.17 at 13h 55m 16s.xml">
       <configuration name="SignInTest" configurationId="TestNG" />
     </history-entry>
@@ -497,6 +512,15 @@
     <history-entry file="SignInTest_signInTest - 2020.06.17 at 13h 56m 48s.xml">
       <configuration name="SignInTest.signInTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SignInTest - 2020.06.19 at 09h 31m 13s.xml">
+      <configuration name="SignInTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SignInTest_signInTest - 2020.06.19 at 09h 45m 28s.xml">
+      <configuration name="SignInTest.signInTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SignInTest_signInTest - 2020.06.19 at 09h 46m 10s.xml">
+      <configuration name="SignInTest.signInTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -509,8 +533,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2217484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -519,12 +544,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3991323" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3991323" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
@@ -696,13 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/base/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="71" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/listeners/CustomListeners.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
@@ -717,30 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/pages/actions/TopNavigation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/pages/locators/TopNavigationLocators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/pages/locators/HomePageLocators.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,19 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/pages/actions/SigninPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,20 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/base/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/testcases/FlightSearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/pages/actions/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -809,13 +780,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/testcases/SignInTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/testcases/FlightSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="220">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/base/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/pages/actions/SigninPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/base/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/testcases/SignInTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/pages/actions/TopNavigation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/w2a/pages/locators/TopNavigationLocators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>

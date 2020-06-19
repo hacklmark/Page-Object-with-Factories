@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class TopNavigationLocators {
 
-    @FindBy(css="#header-account-menu")
+    @FindBy(css="#gc-custom-header-nav-bar-acct-menu > button")
     public WebElement account;
 
     //@FindBy(css="#account-signin")
